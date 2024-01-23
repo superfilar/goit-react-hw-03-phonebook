@@ -1,0 +1,25 @@
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+label input{
+  margin: 5px 0;
+}
+button {
+  border: 1px solid #000000;
+  border-radius: 5%;
+}
+button:hover {
+}
+.contactform {
+  width: 300px;
+  padding: 5%;
+  border: 1px solid #000000;
+  border-radius: 5%;
+  background-color: #fdfdf0;
+}
+.contactform button{
+  background-color: green;
+  color: #FFFFFF;
+}

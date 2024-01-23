@@ -7,9 +7,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: beige;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  margin: 40px auto 20px auto;
+}
+
+h4{
+  margin: 10px auto;
+}
+
+.App ul{
+  padding: 0;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.App ul li{
+  display: flex;
+  justify-content: right;
+  font-weight: 600;
+}
+
+ul button{
+  margin: 0 0 10px 20px;
+  background-color: rgba(255, 0, 0, 0.767);
+  font-weight: 600;
 }
